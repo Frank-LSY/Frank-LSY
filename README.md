@@ -1,17 +1,21 @@
 # 😎 Hi, this is Frank-LSY. 😎
 <br />
-<img align="right" height="200px" width="400px" src="https://source.unsplash.com/daily?/Hefei" />
+<img align="right" height="200px" width="400px" src="https://source.unsplash.com/daily?/Hangzhou" />
 <br />
 
 #### - [0,17] @ **合肥**
 #### - [17,20] @ **武汉**
 #### - [20,22] @ **匹兹堡**
+#### - [22,24] @ **合肥** to recover from back ache.😯
 
-#### - Now Back to 合肥 and recovering.😯
+#### - Now working as RA @ **ZJU, 杭州** return to the road.
 
 ## Bachelor Degree @ 华中师范大学 👨‍🎓
 ## Master Degree @ University of Pittsburgh 👨‍💻
-## Working @ CETC38 now.👨‍💻‍
+## Working @ CETC38 for 2 years.👨‍💻‍
+## RA @ZJU now.
+
+## Looking for Ph.D. position for 2024 admission.
 
 ***
 
@@ -21,6 +25,8 @@
 #### - [🖱]() ***Data Mining***
 #### - [📲]() ***Data Visualization***
 #### - [💯]() ***Statistics***
+
+#### Kind of starting to work on CV application for medical imaging.
 
 ## What I like to do
 ### - 🏀 & 🏃 & 🏊‍♀️
