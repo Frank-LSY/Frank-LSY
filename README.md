@@ -7,15 +7,14 @@
 #### - [17,20] @ **武汉**
 #### - [20,22] @ **匹兹堡**
 #### - [22,24] @ **合肥** to recover from back ache.😯
-
-#### - Now working as RA @ **ZJU, 杭州** return to the road.
+#### - [24,25] @ **ZJU, 杭州** return to the road.
+#### - Now a new Ph.D. student @ **SBMI, UT Health Houston**
 
 ## Bachelor Degree @ 华中师范大学 👨‍🎓
 ## Master Degree @ University of Pittsburgh 👨‍💻
 ## Working @ CETC38 for 2 years.👨‍💻‍
-## RA @ZJU now.
-
-## Looking for Ph.D. position for 2024 admission.
+## RA @ZJU. 👨‍💻‍
+## Ph.D. @ SBMI, UT Health Houston.
 
 ***
 
