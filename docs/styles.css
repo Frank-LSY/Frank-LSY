@@ -41,3 +41,21 @@ h1,h2,h3,.name,.publications h3 a{color:var(--accent)}
 .profile{scrollbar-color:var(--olive) transparent}
 .profile-title{margin:0;font:inherit;letter-spacing:normal}
 .featured+.featured{margin-top:22px}
+/* Original institution artwork, displayed compactly without altering the files. */
+.institution-logo{position:relative;display:block;width:54px;height:54px;overflow:hidden;border-radius:50%;flex:none;background:#fff}
+.institution-logo img{position:absolute;display:block;max-width:none;width:100%;height:auto;left:50%;top:50%;transform:translate(-50%,-50%)}
+.institution-logo.uthealth{border-radius:50%;background:transparent}
+.institution-logo.pittsburgh img{width:180%}
+.institution-logo.ccnu img{width:220%}
+.institution-logo.iflytek img{width:115%}
+.institution-logo.cetc img{width:100%}
+.institution-logo.zhejiang{background:transparent}
+.profile-academic{display:grid;grid-template-columns:40px minmax(0,1fr);gap:10px;align-items:start;margin-top:23px}
+.profile-academic .institution-logo{width:40px;height:40px;margin-top:3px}
+.profile-academic .position{margin:0 0 9px;font-size:.88rem;line-height:1.5}
+.profile-academic .affiliation{margin:0;font-size:.77rem;line-height:1.6}
+.graduation{font-size:.76rem;line-height:1.6;color:var(--accent);margin:12px 0 0}
+.timeline-row{display:grid;grid-template-columns:54px minmax(0,1fr) auto;column-gap:16px;align-items:start}
+.timeline-copy{min-width:0}
+@media(max-width:900px){.timeline-row{grid-template-columns:46px minmax(0,1fr);column-gap:13px;row-gap:4px}.timeline-row .institution-logo{width:46px;height:46px;grid-column:1;grid-row:1 / span 2}.timeline-row .timeline-copy{grid-column:2;grid-row:2}.timeline-row time{grid-column:2;grid-row:1;order:0;padding:0}.profile-academic{grid-template-columns:34px minmax(0,1fr);gap:8px}.profile-academic .institution-logo{width:34px;height:34px}}
+@media(max-width:680px){.profile-academic{clear:both;grid-template-columns:44px minmax(0,1fr);gap:12px;margin-top:17px}.profile-academic .institution-logo{width:44px;height:44px}.profile-academic .position{font-size:.85rem;margin-bottom:5px}.profile-academic .affiliation br{display:block}.profile-academic .affiliation strong:before{content:none}.graduation{margin-top:10px}.timeline-row{margin-bottom:25px}}
