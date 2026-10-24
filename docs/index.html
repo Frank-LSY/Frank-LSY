@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbfaf8">
+<meta name="description" content="Shuyu (Frank) Lu, Biomedical Informatics Ph.D. student at UTHealth Houston. Clinical AI, longitudinal EHR modeling, and healthcare data science. Seeking US internships starting May 2027.">
+<title>Shuyu (Frank) Lu | Clinical AI & Healthcare Data Science</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2330011E'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='38' fill='%23D7FCD4'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<div class="layout">
+<header class="profile">
+<div class="avatar"><img src="photos/shuyu-riverside.webp" alt="Shuyu Lu by a river" width="1800" height="810" fetchpriority="high"></div>
+<h1 class="profile-title"><a class="name" href="#top">Shuyu Lu<span>(Frank)</span></a></h1>
+<p class="position">Ph.D. Student <span class="break"></span>Biomedical Informatics</p>
+<p class="affiliation">McWilliams School of Biomedical Informatics<br><strong>UTHealth Houston</strong></p>
+<p class="location">Houston, Texas</p>
+<div class="profile-links">
+<a class="cv-link" href="cv.pdf" target="_blank" rel="noopener">Curriculum vitae <span>PDF ↗</span></a>
+<a href="mailto:shuyu.lu@uth.tmc.edu">shuyu.lu@uth.tmc.edu</a>
+<div class="social"><a href="https://scholar.google.com/citations?user=YHC0V5UAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar ↗</a><a href="https://www.linkedin.com/in/shuyulu" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/Frank-LSY" target="_blank" rel="noopener">GitHub ↗</a></div>
+</div>
+<nav aria-label="Page sections"><a href="#about">About</a><a href="#research">Research showcase</a><a href="#posters">Posters</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#life">Beyond research</a></nav>
+</header>
+<main id="main">
+<section id="about" class="intro">
+<p class="eyebrow">Clinical AI · Longitudinal EHR · Healthcare Data Science</p>
+<aside class="availability" aria-label="Internship availability">
+<h2>Seeking Summer 2027 internships in the US</h2>
+<p><strong>Research / Applied Scientist &amp; Healthcare Data Science</strong><br>Available from <strong>May 2027</strong> · Also open to ML / AI Engineering</p>
+<div class="action-links"><a href="mailto:shuyu.lu@uth.tmc.edu?subject=Summer%202027%20Internship">Get in touch →</a><a href="cv.pdf" target="_blank" rel="noopener">View CV (PDF) ↗</a></div>
+</aside>
+<p>I am a Ph.D. student in Biomedical Informatics at <strong>UTHealth Houston</strong> and a member of the <strong>TEAM-AI group</strong>, advised by <strong>Hongfang Liu</strong>. My research focuses on developing intelligent and reliable AI systems for biomedical and clinical applications, spanning large language model reasoning, multimodal learning, longitudinal representation learning, and clinical decision support.</p>
+<p>I am particularly interested in how AI can <strong>acquire, integrate, and reason over heterogeneous biomedical evidence</strong> to understand patient trajectories, improve medication safety, and support personalized healthcare. My current work includes dynamic postoperative risk prediction and longitudinal analyses of treatment and adverse-event trajectories. Alongside this work, I explore how interpretable models and multi-agent systems could support patient-specific clinical reasoning.</p>
+<details class="bio-story">
+<summary>Background &amp; research philosophy</summary>
+<div class="bio-story-copy">
+<p>Growing up in a family of physicians, I often heard my parents discuss clinical practice and medical decision-making. Those conversations made me curious about the gap between the wealth of available clinical data and the knowledge clinicians can use in an individual patient's care. That question led me from computer science to biomedical informatics.</p>
+<p>After earning my bachelor's degree in computer science, I completed an M.S. in Biomedical Informatics at the <strong>University of Pittsburgh</strong>, where I began studying predictive models for heart failure. I then returned to China to work on data-driven chronic disease management and software development. These experiences taught me to value systems that combine methodological rigor with a clear clinical purpose.</p>
+<p>At UTHealth Houston, discussions with Dr. Liu, Xiaoyang Ruan, Liwei Wang, and colleagues at McGovern Medical School helped sharpen my interest in perioperative care. Dr. Liu's advice to <strong>start with the clinical problem and design the right tool</strong> has become central to my research: the question should guide the method, and the method should fit the clinical workflow.</p>
+<p>Looking ahead, I aim to develop explainable, patient-specific decision support for perioperative risk management, including orthopedic care. One direction is a multi-agent framework that integrates heterogeneous clinical data and the perspectives of different clinical roles. This remains a research goal, with clinical validation and workflow integration essential to its development. Ultimately, I want my work to help clinicians turn complex evidence into informed, individualized care.</p>
+</div>
+</details>
+</section>
+<section id="research">
+<div class="section-heading"><h2>Research showcase</h2><span>Selected work</span></div>
+<article class="featured">
+<div class="project-top"><span class="label">Featured project · Project website</span><a href="https://frank-lsy.github.io/STREAM-PO-AKI/" target="_blank" rel="noopener">Project website ↗</a></div>
+<h3><a href="https://frank-lsy.github.io/STREAM-PO-AKI/" target="_blank" rel="noopener">STREAM: Dynamic postoperative AKI prediction</a></h3>
+<p>An event-stream Transformer that estimates postoperative acute kidney injury (AKI) risk at surgery and updates it as new clinical events arrive.</p>
+<div class="event-flow" aria-label="Model pipeline"><div><strong>Clinical events</strong><span>Diagnoses, medications, labs</span></div><span class="arrow" aria-hidden="true">→</span><div><strong>Event-stream Transformer</strong><span>Irregular, time-stamped EHR</span></div><span class="arrow" aria-hidden="true">→</span><div><strong>Updated AKI risk</strong><span>After each postoperative event</span></div></div>
+<p class="project-detail">The repository includes OMOP-based cohort preparation, model training, baseline comparisons, calibration, and aggregate analyses. Patient-level data are not shared.</p>
+<dl class="results"><div><dt>Temporal test cohort</dt><dd>23,538 <span>surgical episodes</span></dd></div><div><dt>At-surgery AUROC</dt><dd>0.9419</dd></div><div><dt>Dynamic macro-AUPRC</dt><dd>0.5886</dd></div></dl>
+<p class="result-note">Repository-reported performance means across five fold-specific models; dynamic metrics average 120 six-hour windows over 30 days. Retrospective evaluation, not evidence of clinical deployment.</p>
+<p class="project-links"><a href="https://frank-lsy.github.io/STREAM-PO-AKI/" target="_blank" rel="noopener">Explore project &amp; results ↗</a><a href="https://github.com/Frank-LSY/STREAM-PO-AKI" target="_blank" rel="noopener">Source code ↗</a></p>
+</article>
+<article class="featured" id="glp1-project">
+<div class="project-top"><span class="label">Featured project · AMIA 2026</span><a href="https://frank-lsy.github.io/GLP-1-Temporal-Drug-Adeverse-Event-Resource/" target="_blank" rel="noopener">Project website ↗</a></div>
+<h3><a href="https://frank-lsy.github.io/GLP-1-Temporal-Drug-Adeverse-Event-Resource/" target="_blank" rel="noopener">GLP-1 Evidence Atlas: Temporal drug safety</a></h3>
+<p>A global-to-local pharmacovigilance study connecting FAERS reporting signals with longitudinal EHR phenotypes and treatment episodes to examine duration-aware patterns in GLP-1/GIP medication safety.</p>
+<div class="event-flow" aria-label="Evidence workflow"><div><strong>FAERS signals</strong><span>Global safety reports</span></div><span class="arrow" aria-hidden="true">→</span><div><strong>Clinical representations</strong><span>Semantic mapping &amp; exposure phenotyping</span></div><span class="arrow" aria-hidden="true">→</span><div><strong>EHR trajectories</strong><span>Treatment-duration analyses</span></div></div>
+<p class="project-detail">The interactive project page traces signal detection, clinical concept mapping, and treatment-episode reconstruction, with evidence explorers and interpretation of the study's findings. First-author research accepted at the AMIA Annual Symposium 2026.</p>
+<dl class="results"><div><dt>FAERS reports</dt><dd>286,461</dd></div><div><dt>EHR patients</dt><dd>71,316</dd></div><div><dt>Treatment episodes</dt><dd>289,655</dd></div></dl>
+<p class="result-note">Study counts reported on the project website. The two sources are connected through clinical representations, not individual patient linkage. Retrospective associations do not establish causality; reporting signals are not clinical risk estimates.</p>
+<p class="project-links"><a href="https://frank-lsy.github.io/GLP-1-Temporal-Drug-Adeverse-Event-Resource/" target="_blank" rel="noopener">Explore project &amp; evidence ↗</a><a href="https://doi.org/10.64898/2026.05.28.26354401" target="_blank" rel="noopener">Read manuscript ↗</a></p>
+</article>
+<div class="research-rows">
+<article><h3>Obesity phenotyping &amp; medication trajectories</h3><p>GRU-D representation learning and clustering for longitudinal EHR phenotyping; real-world analyses of GLP-1/GIP treatment effectiveness, discontinuation, and adverse events.</p><a href="https://doi.org/10.2196/70140" target="_blank" rel="noopener">JMIR paper ↗</a></article>
+<article><h3>Multimodal cognitive risk modeling</h3><p>At iFLYTEK Health, integrated speech, language, memory, and handwriting signals from <strong>1,166 participants</strong>, achieving <strong>89.3% test accuracy and 77.5% F1</strong>, with SHAP-based interpretation.</p><span class="muted">Industry research · May–August 2025</span></article>
+<article><h3>Interpretable heart-failure prediction</h3><p>Combined structured EHR and clinical narratives using NLP, tree-based models, and SHAP to study readmission risk and clinically relevant predictors.</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8861751/" target="_blank" rel="noopener">First-author AMIA paper ↗</a></article>
+</div>
+</section>
+<section id="posters">
+<div class="section-heading"><h2>Selected posters</h2><span>Research in progress</span></div>
+<p class="poster-intro">Frameworks and research directions that complement my work on dynamic clinical prediction.</p>
+<div class="poster-list">
+<article class="poster-item">
+<a class="poster-preview" href="posters/perioperative-digital-twin.html" aria-label="View the perioperative digital twin poster"><img src="posters/perioperative-digital-twin-preview.webp" alt="Preview of Shuyu Lu's perioperative digital twin poster, including the proposed architecture and preliminary surgical cohort analyses" width="1000" height="857" loading="lazy"></a>
+<div><p class="label">Proposed framework · Preliminary analysis</p><h3><a href="posters/perioperative-digital-twin.html">Towards a perioperative digital twin</a></h3><p>Dynamic trajectory modeling for postoperative organ injury risk, with exploratory analyses of changing surgical cohort characteristics.</p><a class="poster-link" href="posters/perioperative-digital-twin.html">View full poster →</a></div>
+</article>
+<article class="poster-item">
+<a class="poster-preview" href="posters/multi-agent-digital-twin.html" aria-label="View the multi-agent digital twin research concept poster"><img src="posters/multi-agent-digital-twin-preview.webp" alt="Preview of Shuyu Lu's multi-agent digital twin research design poster, with agent roles and a staged development roadmap" width="1000" height="563" loading="lazy"></a>
+<div><p class="label">Early-stage concept · BMI 7304</p><h3><a href="posters/multi-agent-digital-twin.html">Perioperative multi-agent digital twin</a></h3><p>A research design exploring LLM-driven agents, synthetic patient scenarios, and a staged path toward data-driven surgical decision support.</p><a class="poster-link" href="posters/multi-agent-digital-twin.html">View full poster →</a></div>
+</article>
+</div>
+</section>
+<section id="publications">
+<div class="section-heading"><h2>Selected publications</h2><a href="https://scholar.google.com/citations?user=YHC0V5UAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a></div>
+<ol class="publications">
+<li><span class="pub-year">2026</span><div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=YHC0V5UAAAAJ&amp;citation_for_view=YHC0V5UAAAAJ:eQOLeE2rZwMC" target="_blank" rel="noopener">Tracking the Dynamic Trajectories: A Global-to-Local Pharmacovigilance Analysis of GLP-1 Receptor Agonists</a></h3><p><strong>S. Lu</strong>, X. Ruan, L. Wang, X. Wang, M. Sameer, H. Liu</p><p class="venue">AMIA Annual Symposium 2026 · Accepted <span class="authorship">First author</span> · <a href="https://frank-lsy.github.io/GLP-1-Temporal-Drug-Adeverse-Event-Resource/" target="_blank" rel="noopener">Project website ↗</a></p></div></li>
+<li><span class="pub-year">2026</span><div><h3><a href="https://doi.org/10.1038/s41746-026-02732-0" target="_blank" rel="noopener">A Dynamic Risk Prediction Framework for Alzheimer's Disease and Related Dementias with Interpretability</a></h3><p>X. Ruan, <strong>S. Lu</strong>, S. Fu, et al.</p><p class="venue">npj Digital Medicine 9, 446 · <a href="https://doi.org/10.1038/s41746-026-02732-0" target="_blank" rel="noopener">Paper ↗</a></p></div></li>
+<li><span class="pub-year">2025</span><div><h3><a href="https://doi.org/10.2196/70140" target="_blank" rel="noopener">Deep Phenotyping of Obesity: Electronic Health Record-Based Temporal Modeling Study</a></h3><p>X. Ruan, <strong>S. Lu</strong>, L. Wang, A. Wen, S. Murali, H. Liu</p><p class="venue">Journal of Medical Internet Research 27, e70140 · <a href="https://doi.org/10.2196/70140" target="_blank" rel="noopener">Paper ↗</a></p></div></li>
+<li><span class="pub-year">2022</span><div><h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8861751/" target="_blank" rel="noopener">Understanding Heart Failure Patients' EHR Clinical Features via SHAP Interpretation of Tree-Based Machine Learning Model Predictions</a></h3><p><strong>S. Lu</strong>, R. Chen, W. Wei, M. Belovsky, X. Lu</p><p class="venue">AMIA Annual Symposium Proceedings · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8861751/" target="_blank" rel="noopener">Paper ↗</a> <span class="authorship">First author</span></p></div></li>
+<li><span class="pub-year">2021</span><div><h3>Evaluating FFT-Based Algorithms for Strided Convolutions on ARMv8 Architectures</h3><p>X. Huang, Q. Wang, <strong>S. Lu</strong>, R. Hao, S. Mei, J. Liu</p><p class="venue">Performance Evaluation 152, 102248</p></div></li>
+</ol>
+</section>
+<section id="experience">
+<div class="section-heading"><h2>Experience</h2></div>
+<article class="timeline-row"><div><h3>iFLYTEK Health</h3><p class="role">Algorithm Research Scientist</p><p>Multimodal learning and interpretable cognitive risk modeling.</p></div><time>May–Aug 2025</time></article>
+<article class="timeline-row"><div><h3>Zhejiang University</h3><p class="role">Research Assistant · School of Public Health</p><p>Built a full-stack lung-cancer risk assessment application; supported data workflows for the Healthy Zhejiang One Million People Cohort.</p></div><time>Mar 2023–Jun 2024</time></article>
+<article class="timeline-row"><div><h3>CETC 38th Research Institute</h3><p class="role">Software Development Engineer</p><p>Enterprise web applications, operational analytics, and standardized data pipelines.</p></div><time>Sep 2021–Mar 2023</time></article>
+</section>
+<section id="education">
+<div class="section-heading"><h2>Education</h2></div>
+<article class="timeline-row"><div><h3>UTHealth Houston</h3><p class="role">Ph.D., Biomedical Informatics</p><p>Advisor: Hongfang Liu · Expected Fall 2028</p></div><time>2024–present</time></article>
+<article class="timeline-row"><div><h3>University of Pittsburgh</h3><p class="role">M.S., Biomedical Informatics</p><p>Advisor: Xinghua Lu</p></div><time>2019–2021</time></article>
+<article class="timeline-row"><div><h3>Central China Normal University</h3><p class="role">B.E., Computer Science</p><p>French minor, Wuhan University</p></div><time>2015–2019</time></article>
+</section>
+<section id="methods">
+<div class="section-heading"><h2>Methods &amp; tools</h2></div>
+<dl class="methods"><div><dt>Machine learning</dt><dd>PyTorch, scikit-learn, Transformers, GRU-D, multimodal learning, NLP, SHAP</dd></div><div><dt>Clinical data</dt><dd>Longitudinal EHR, OMOP CDM, SQL, Python, R, real-world evidence</dd></div><div><dt>Engineering</dt><dd>Django, Vue, JavaScript / TypeScript, PostgreSQL</dd></div></dl>
+</section>
+<section id="life">
+<div class="section-heading"><h2>Beyond research</h2></div>
+<div class="photo-wall" aria-label="Photos beyond research">
+<div class="life-photo"><img src="photos/mountain-camera.webp" alt="Shuyu holding a camera in the mountains" width="1600" height="720" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/tea-garden-dog.webp" alt="Shuyu with a dog among tea plants" width="1600" height="1067" loading="lazy" decoding="async"></div>
+<div class="life-photo portrait"><img src="photos/pavilion.webp" alt="Shuyu balancing beneath an ornate pavilion" width="1080" height="1440" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/willow-river.webp" alt="Shuyu beside a river and willow branches" width="1600" height="1067" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/ocean.webp" alt="Shuyu by the ocean with arms outstretched" width="1600" height="1200" loading="lazy" decoding="async"></div>
+<div class="life-photo portrait"><img src="photos/hutong.webp" alt="Shuyu beside a hutong wall" width="900" height="1600" loading="lazy" decoding="async"></div>
+<div class="life-photo portrait"><img src="photos/mountain-evening.webp" alt="Shuyu in evening light with a mountain in the distance" width="1200" height="2666" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/coast.webp" alt="Shuyu seated on a coastal rock" width="1600" height="900" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/fountain.webp" alt="Shuyu standing by a fountain" width="1600" height="1038" loading="lazy" decoding="async"></div>
+<div class="life-photo"><img src="photos/riverside-walk.webp" alt="Shuyu on a riverside walkway" width="1600" height="1067" loading="lazy" decoding="async"></div>
+<div class="life-photo portrait"><img src="photos/city-lights.webp" alt="Shuyu in front of an illuminated tower at night" width="1200" height="1784" loading="lazy" decoding="async"></div>
+</div>
+</section>
+<section id="contact" class="contact"><h2>Let's connect</h2><p>For Summer 2027 internships or research collaborations:<br><a href="mailto:shuyu.lu@uth.tmc.edu">shuyu.lu@uth.tmc.edu →</a></p></section>
+<footer>© 2026 Shuyu Lu <span>Updated October 2026 · <a href="#top">Back to top ↑</a></span></footer>
+</main>
+</div>
+</body>
+</html>
